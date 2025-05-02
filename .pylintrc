@@ -1,0 +1,17 @@
+[MASTER]
+disable=C0111,C0103,C0303,W0311,W0603,W0621,R0903,R0913,R0914,R0915
+
+[MESSAGES CONTROL]
+disable=C0111,C0103,C0303,W0311,W0603,W0621,R0903,R0913,R0914,R0915
+
+[FORMAT]
+max-line-length=120
+
+[BASIC]
+good-names=i,j,k,ex,Run,_,id,fd
+
+[SIMILARITIES]
+min-similarity-lines=4
+ignore-comments=yes
+ignore-docstrings=yes
+ignore-imports=yes 
